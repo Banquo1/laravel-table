@@ -7,6 +7,7 @@ This package contains flexible ways of rendering Eloquent collections as dynamic
 techniques for sortable columns, customizable cell data, automatic pagination, ~~user-definable rows-per-page, batch 
 action handling, and extensible filtering~~ (coming soon).
 
+Forked due to not working with Laravel 5.7.x.
 
 ## Installation
 
