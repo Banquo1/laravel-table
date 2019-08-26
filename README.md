@@ -7,14 +7,30 @@ This package contains flexible ways of rendering Eloquent collections as dynamic
 techniques for sortable columns, customizable cell data, automatic pagination, ~~user-definable rows-per-page, batch 
 action handling, and extensible filtering~~ (coming soon).
 
-## Sotagency fork: forked due to not working with Laravel 5.7.x.
+## michaelpapesch fork of Sotagency fork: forked due to not being able to check out with composer because of same branch name. Working with Laravel 5.8.x.
 
 ## Installation
+
+Add VCS provider to `config/app.php`:
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/michaelpapesch/laravel-table"
+    },
+```
 
 Require the package in your `composer.json`:
 
 ```json
-"gbrock/laravel-table": "dev-master"
+"require": {
+    "gbrock/laravel-table": "dev-l58",
+```
+
+Composer update:
+```
+composer update
 ```
 
 Add the service provider to `config/app.php` and, optionally, the Facade:
