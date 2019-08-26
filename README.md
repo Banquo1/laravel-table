@@ -21,7 +21,7 @@ Add VCS provider to `config/app.php`:
     },
 ```
 
-Require the package in your `composer.json`:
+Require the original `gbrock`-package in your `composer.json`:
 
 ```json
 "require": {
