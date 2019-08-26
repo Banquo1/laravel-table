@@ -41,6 +41,12 @@ Add the service provider to `config/app.php` and, optionally, the Facade:
 'Table'      => 'Gbrock\Table\Facades\Table',
 ```
 
+Remove old published views:
+
+```
+rm resources/views/vendor/gbrock/table.blade.php
+```
+
 Publish the views and config:
 
 ```
