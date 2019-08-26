@@ -7,7 +7,7 @@ This package contains flexible ways of rendering Eloquent collections as dynamic
 techniques for sortable columns, customizable cell data, automatic pagination, ~~user-definable rows-per-page, batch 
 action handling, and extensible filtering~~ (coming soon).
 
-## michaelpapesch fork of Sotagency fork: forked due to not being able to check out with composer because of same branch name. Working with Laravel 5.8.x.
+## michaelpapesch fork of Sotagency fork: forked due to not being able to check out with composer because of same branch name. Working with Laravel 5.7.x and 5.8.x.
 
 ## Installation
 
