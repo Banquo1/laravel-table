@@ -7,7 +7,7 @@ This package contains flexible ways of rendering Eloquent collections as dynamic
 techniques for sortable columns, customizable cell data, automatic pagination, ~~user-definable rows-per-page, batch 
 action handling, and extensible filtering~~ (coming soon).
 
-## michaelpapesch fork of Sotagency fork: forked due to not being able to check out with composer because of same branch name. Working with Laravel 5.7.x and 5.8.x.
+## banquo1 fork of michaelpapesch fork of Sotagency fork: forked due to not being able to check out with composer because of same branch name. Working with Laravel 6.x (not 5.X)
 
 ## Installation
 
@@ -17,7 +17,7 @@ Add VCS provider to `config/app.php`:
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/michaelpapesch/laravel-table"
+        "url": "https://github.com/banquo1/laravel-table"
     },
 ```
 
@@ -25,7 +25,7 @@ Require the original `gbrock`-package in your `composer.json`:
 
 ```json
 "require": {
-    "gbrock/laravel-table": "dev-l58",
+    "gbrock/laravel-table": "dev-l60",
 ```
 
 Composer update:
